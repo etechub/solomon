@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "/images/01.webp",
+        "title": "Ericeira, Portugal",
+        "desc": "3,040 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$5,200",
+        "category": "night"
+    },
+    {
+        "id": 2,
+        "imageUrl": "/images/02.webp",
+        "title": "Volimes, Greece",
+        "desc": "3,060 kilometers away",
+        "date": "Mar-3-23",
+        "price": "$3,210",
+        "category": "night"
+    },
+    {
+        "id":3,
+        "imageUrl": "/images/03.webp",
+        "title": "Cadaval, Portugal",
+        "desc": "2,040 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$1,510",
+        "category": "night"
+    },
+    {
+        "id":4,
+        "imageUrl": "/images/04.webp",
+        "title": "Peniche, Portugal"   ,
+        "desc": "5,040 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$4,090",
+        "category": "night"
+    },
+    {
+        "id":5,
+        "imageUrl": "/images/05.webp",
+        "title": "Mafra Portugal",
+        "desc": "4,040 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$4,610",
+        "category": "night"
+    },
+    {
+        "id": 6,
+        "imageUrl": "/images/06.webp",
+        "title": "Ericeira, Portugal",
+        "desc": "5,090 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$3,140",
+        "category": "night"
+    },
+    {
+        "id": 7,
+        "imageUrl": "/images/07.webp",
+        "title": "Lajares, Spain",
+        "desc": "5,020 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$3,510",
+        "category": "night"
+    },
+    {
+        "id":8,
+        "imageUrl": "/images/08.webp",
+        "title": "Antigua, Portugal",
+        "desc": "4,040 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$6,910",
+        "category": "night"
+    },
+    {
+        "id":9,
+        "imageUrl": "/images/09.webp",
+        "title": "Peniche, Portugal"   ,
+        "desc": "3,050 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$5,810",
+        "category": "night"
+    },
+    {
+        "id":10,
+        "imageUrl": "/images/10.webp",
+        "title": "Mafra Portugal",
+        "desc": "3,340 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$5,30",
+        "category": "night"
+    },
+    {
+        "id": 11,
+        "imageUrl": "/images/11.webp",
+        "title": "Essaouria, Morocco",
+        "desc": "2,340 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$10",
+        "category": "night"
+    },
+    {
+        "id": 12,
+        "imageUrl": "/images/12.webp",
+        "title": "Marrakesh, Morocco",
+        "desc": "5,020 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$3,510",
+        "category": "night"
+    },
+    {
+        "id":13,
+        "imageUrl": "/images/13.webp",
+        "title": "Marrakech, Morocco",
+        "desc": "3,020 kilometers away..",
+        "date": "Mar-3-23",
+        "price": "$2,310",
+        "category": "night"
+    },
+    {
+        "id":14,
+        "imageUrl": "/images/14.webp",
+        "title": "Peniche, Portugal"   ,
+        "desc": "1,090 kilometers away..",
+        "date": "Mar-3-23",
+        "price": "$1,710",
+        "category": "night"
+    },
+    {
+        "id":15,
+        "imageUrl": "/images/15.webp",
+        "title": "El Pajar, Spain",
+        "desc": "4,320 kilometers away..",
+        "date": "Mar-3-23",
+        "price": "$3,210",
+        "category": "night"
+    },
+    {
+        "id": 16,
+        "imageUrl": "/images/16.webp",
+        "title": "Costa Adeje, Spain",
+        "desc": "5,020 kilometers away..",
+        "date": "Mar-3-23",
+        "price": "$4,810",
+        "category": "night"
+    },
+    {
+        "id": 17,
+        "imageUrl": "/images/17.webp",
+        "title": "Volimes, Greece",
+        "desc": "4,020 kilometers away..",
+        "date": "Mar-3-23",
+        "price": "$3,710",
+        "category": "night"
+    },
+    {
+        "id":18,
+        "imageUrl": "/images/18.webp",
+        "title": "Ngaparou, Senegal",
+        "desc": "4,050 kilometers away..",
+        "date": "Mar-3-23",
+        "price": "$5,610",
+        "category": "night"
+    },
+    {
+        "id":19,
+        "imageUrl": "/images/19.webp",
+        "title": "Playa Blanca, Spain"   ,
+        "desc": "3,020 kilometers away..",
+        "date": "Mar-3-23",
+        "price": "$3,410",
+        "category": "night"
+    },
+    {
+        "id":20,
+        "imageUrl": "/images/20.webp",
+        "title": "Saly, Senegal",
+        "desc": "3,520 kilometers away..",
+        "date": "Mar-3-23",
+        "price": "$4,580",
+        "category": "night"
+    },
+    {
+        "id": 21,
+        "imageUrl": "/images/21.webp",
+        "title": "Route, Portugal",
+        "desc": "4,020 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$1,810",
+        "category": "night"
+    },
+    {
+        "id": 22,
+        "imageUrl": "/images/22.webp",
+        "title": "Santa Briida, Spain",
+        "desc": "7,020 kilometers away..",
+        "date": "Mar-3-23",
+        "price": "$5,220",
+        "category": "night"
+    },
+    {
+        "id":23,
+        "imageUrl": "/images/23.webp",
+        "title": "Cadaval, Portugal",
+        "desc": "1,520 kilometers away..",
+        "date": "Mar-3-23",
+        "price": "$1,999",
+        "category": "night"
+    },
+    {
+        "id":24,
+        "imageUrl": "/images/24.webp",
+        "title": "Pasito Blanco, Spain"   ,
+        "desc": "8,120 kilometers away..",
+        "date": "Mar-3-23",
+        "price": "$2,810",
+        "category": "night"
+    },
+    {
+        "id":25,
+        "imageUrl": "/images/25.webp",
+        "title": "Mafra Portugal",
+        "desc": "3,020 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$3,710",
+        "category": "night"
+    },
+    {
+        "id": 26,
+        "imageUrl": "/images/26.webp",
+        "title": "Ericeira, Portugal",
+        "desc": "2,020 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$3,310",
+        "category": "night"
+    },
+    {
+        "id": 27,
+        "imageUrl": "/images/27.webp",
+        "title": "Volimes, Greece",
+        "desc": "6,240 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$5,910",
+        "category": "night"
+    },
+    {
+        "id":28,
+        "imageUrl": "/images/28.webp",
+        "title": "Cadaval, Spain",
+        "desc": "4,120 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$3,510",
+        "category": "night"
+    },
+    {
+        "id":29,
+        "imageUrl": "/images/29.webp",
+        "title": "Peniche, Portugal"   ,
+        "desc": "5,020 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$3,610",
+        "category": "night"
+    },
+    {
+        "id":30,
+        "imageUrl": "/images/30.webp",
+        "title": "Adeje, Spain",
+        "desc": "5,020 kilometers away.",
+        "date": "Mar-3-23",
+        "price": "$4,410",
+        "category": "night"
+    }
+]
