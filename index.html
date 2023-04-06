@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+</head>
+
+<body>
+    <div class="sticky top-0 left-0 w-full z-50" id="header">
+
+    </div>
+    <!-- <script src="main.js"></script> -->
+
+    <main>
+        <div class="relative h-[100vh]" style="background-image: url(/images/background/background.webp);">
+            <div class="md:absolute md:top-[50px] absolute top-[30px] left-[20px] md:left-[200px]  w-[400px]">
+                <h1 class="text-white text-[16px] my-[25px]">
+                    NEW RELEASE
+                </h1>
+                <h1 class="text-white text-[60px] my-[-15px]">
+                    PACE
+                </h1>
+                <h1 class="text-white text-[60px]">
+                    SHOP ON
+                </h1>
+                <p class="text-white my-[25px]">
+                    Get to know our new phones and devices with a super performance, smooth and lightweight feel and
+                    strong batteries with 10 hours stay-on.
+                </p>
+                <button
+                    class="text-white border-white border py-[20px] h-[20px] px-[35px] flex items-center hover:text-black hover:bg-white">
+                    SHOP
+                </button>
+            </div>
+        </div>
+
+
+        <div class="py-[80px] relative">
+
+           
+
+            <h1 class="flex justify-center text-[18px] font-sans">MUST HAVE</h1>
+
+            <div class="flex gap-2 justify-center items-center">
+                <span class="font-bold text-[48px]">BEST</span> <span
+                    class="font-semibold font-sans text-[40px] italic">DEVICES</span>
+            </div>
+        </div>
+
+        <div class="flex md:flex md:flex-col md:items-center md:justify-center md:px-5">
+            <label for="" class="font-bold">Filter by</label><br>
+            <form action="">
+                <select name="All" id="select" class="border-2 h-[40px] px-4" onchange="selectChangeHandler()">
+                    <option value="" class="font-bold"><a href="">All</a></option>
+                    <option value="" class="font-bold"><a href="">Phones</a></option>
+                    <option value="" class="font-bold"><a href="">Laptop</a></option>
+                    <option value="" class="font-bold"><a href="">Tablet</a></option>
+                    <option value="" class="font-bold"><a href="">Power_Bank</a></option>
+                    <option value="" class="font-bold"><a href="">Tv</a></option>
+                </select>
+            </form>
+        </div>
+
+        <div class="flex justify-center items-center flex-col">
+            <div class="flex justify-center lg:px-[38px] py-[20px] gap-[30px] flex-wrap" id="bestdevices">
+                <!-- <div class="flex flex-col items-center py-[20px] w-[300px] border">
+                    <img src="images/phones/phone1.jfif" alt="">
+                    <div>
+                        <h2>Apple IPhone 14 (6GB RAM + 256gb ROM)</h2>
+                        <h2 class="font-bold flex justify-center py-[20px]">$ 700</h2>
+                    </div>
+                    <button class=" flex items-center justify-center text-white bg-[#634141] px-[20px] py-[10px]">Add to
+                        Cart</button>
+                </div>
+
+                <div class="flex flex-col items-center pt-[70px] w-[300px]  border">
+                    <img src="images/phones/phone3.jfif" alt="" width="350px" height="350px">
+                    <div>
+                        <h2>Samsung Galaxy A13 (4GB RAM, 128GB ROM)</h2>
+                        <h2 class="font-bold flex justify-center py-[20px]">$ 900</h2>
+                    </div>
+                    <button class=" flex items-center justify-center text-white bg-[#634141] px-[20px] py-[10px]">Add to
+                        Cart</button>
+                </div>
+
+                <div class="flex flex-col items-center pt-[90px]  w-[300px] border">
+                    <img src="images/laptop/laptop1.jfif" alt="">
+                    <div>
+                        <h2>Hp Pavilion 15 Intel Core i5 8GB RAM 512GB SSD</h2>
+                        <h2 class="font-bold flex justify-center py-[20px]">$ 800</h2>
+                    </div>
+                    <button class=" flex items-center justify-center text-white bg-[#634141] px-[20px] py-[10px]">Add to
+                        Cart</button>
+                </div>
+
+                <div class="flex flex-col items-center pt-[130px]  w-[300px] border">
+                    <img src="images/laptop/laptop3.jfif" alt="">
+                    <div>
+                        <h2>Hp Pavilion 16 Intel Core i7 16GB RAM 512GB SSD</h2>
+                        <h2 class="font-bold flex justify-center py-[20px]">$ 850</h2>
+                    </div>
+                    <button class=" flex items-center justify-center text-white bg-[#634141] px-[20px] py-[10px]">Add to
+                        Cart</button>
+                </div>
+
+                <div class="flex flex-col items-center pt-[40px]  w-[300px] border">
+                    <img src="images/power bank/powerbank1.jfif" alt="">
+                    <div>
+                        <h2>New Age Virgin Bank 15000mah Free USB Cable</h2>
+                        <h2 class="font-bold flex justify-center py-[20px]">$ 10</h2>
+                    </div>
+                    <button class=" flex items-center justify-center text-white bg-[#634141] px-[20px] py-[10px]">Add to
+                        Cart</button>
+                </div>
+
+                <div class="flex flex-col items-center py-[20px]  w-[300px] border">
+                    <img src="images/tablet/tablet1.jfif" alt="">
+                    <div>
+                        <h2>C Idea C Idea 10 Inches Tablet, Android Tab, 5G Dual Sim</h2>
+                        <h2 class="font-bold flex justify-center py-[20px]">$80</h2>
+                    </div>
+                    <button class=" flex items-center justify-center text-white bg-[#634141] px-[20px] py-[10px]">Add to
+                        Cart</button>
+                </div>
+
+                <div class="flex flex-col items-center pt-[60px]  w-[300px] border">
+                    <img src="images/TV/tv1.jfif" alt="">
+                    <div>
+                        <h2>LG 50" 4k UHD Smart TV+Netflix,Youtube APP & APPLE</h2>
+                        <h2 class="font-bold flex justify-center py-[20px]">$ 350</h2>
+                    </div>
+                    <button class=" flex items-center justify-center text-white bg-[#634141] px-[20px] py-[10px]">Add to
+                        Cart</button>
+                </div>
+            </div> -->
+
+            </div>
+            <div class="flex justify-center pb-[50px]">
+                <button
+                    class=" border-2 border-black hover:bg-black hover:text-white flex items-center text-black px-[30px] py-[10px] font-bold">SHOP
+                    BEST DEVICE</button>
+            </div>
+
+
+            <h1 class="flex justify-center items-center font-bold text-[25px]"> PHONES</h1>
+            <div class="w-full overflow-auto">
+                <div class="w-[3000px] flex flex-col">
+                    <div class=" flex  my-[10px]" id="phones">
+                        <!-- <div class="item w-[400px] flex flex-col justify-center items-center border py-5 mx-5">
+                            <img src="images/phones/phone1.jfif" alt="">
+                            <div>
+                                <h1>Apple IPhone 14 (6GB RAM + 256gb ROM)</h1>
+                                <h2 class="font-bold flex justify-center py-[20px]">$ 700</h2>
+                            </div>
+                            <button
+                                class=" flex items-center justify-center text-white bg-[#634141] px-[20px] py-[10px]">Add
+                                to
+                                Cart</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+
+            <h1 class="flex justify-center w-[120px] h-[40px] items-center font-bold text-[25px]">LAPTOPS</h1>
+            <div class="w-full overflow-auto">
+                <div class="w-[3000px] flex flex-col">
+
+                    <div class="flex" id="laptop">
+                        <!-- <div class="flex flex-col justify-center items-center border w-[400px] my-4 mx-3 py-[15px] px-[15px]">
+                            <img src="images/laptop/laptop1.jfif" alt="">
+                            <div>
+                                <h1>Hp Pavilion 15 Intel Core i5 8GB RAM 512GB SSD</h1>
+                                <h2 class="font-bold flex justify-center py-[20px]">$ 800</h2>
+                            </div>
+                            <button
+                                class=" flex items-center justify-center text-white bg-[#634141] px-[20px] py-[10px]">Add
+                                to
+                                Cart</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+
+            <h1 class="flex justify-center w-[250px] h-[35px] items-center font-bold text-[25px]">POWER - BANKS</h1>
+            <div class="w-full overflow-auto">
+                <div class="w-[3000px] flex flex-col">
+                    <div class="flex" id="powerbank">
+                        <!-- <div class="border flex flex-col items-center justify-center mx-3 my-3 px-4 py-5">
+                        <img src="images/power bank/powerbank1.jfif" alt="">
+                        <h1>title</h1>
+                        <h1>price</h1>
+                        <button
+                                class=" flex items-center justify-center text-white bg-[#634141] px-[20px] py-[10px]">Add
+                                to
+                                Cart</button>
+                    </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="flex justify-center w-[250px] h-[35px] items-center font-bold text-[25px]">TV</h1>
+            <div class="w-full overflow-auto">
+                <div class="w-[3000px] flex flex-col">
+                    <div class="flex" id="tv">
+                        <!-- <div class="border flex flex-col items-center justify-center mx-3 my-3 px-4 py-5">
+                        <img src="images/TV/tv1.jfif" alt="" height="300px" width="300px">
+                        <h1>title</h1>
+                        <h1>price</h1>
+
+                        <button
+                            class=" flex items-center justify-center text-white bg-[#634141] px-[20px] py-[10px]">Add
+                            to
+                            Cart</button>
+                    </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="flex justify-center w-[250px] h-[35px] items-center font-bold text-[25px]">TABLETS</h1>
+            <div class="w-full overflow-auto">
+                <div class="w-[3000px] flex flex-col">
+                    <div class="flex" id="Tablet">
+                        <!-- <div class="border flex flex-col items-center justify-between mx-3 my-3 px-4 py-5">
+                        <img src="images/tablet/tablet1.jfif" alt="" height="300px" width="300px">
+                        <h1>title</h1>
+                        <h1>price</h1>
+                        <div>
+                        <button
+                            class=" flex items-center justify-center text-white bg-[#634141] px-[20px] py-[10px]">Add
+                            to
+                            Cart</button>
+                        </div>
+                    </div> -->
+                    </div>
+                </div>
+            </div>
+
+
+
+            <br><br><br><br>
+
+
+
+            <div id="footer" class="w-full bg-black text-white"></div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

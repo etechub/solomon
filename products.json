@@ -1,0 +1,357 @@
+[
+    {
+        "id": 1,
+        "category": "phones",
+        "imageUrl":"images/phones/phone1.jfif",
+        "title":"Apple IPhone 14 (6GB RAM + 256gb ROM)",
+        "price":"$900"
+    },
+    {
+        "id":2,
+        "category": "phones",
+        "imageUrl":"images/phones/phone2.jfif",
+        "title":"Samsung Galaxy A13 (4GB RAM, 128GB ROM)",
+        "price":"$300"
+    },
+    {
+        "id":3,
+        "category": "phones",
+        "imageUrl":"images/phones/phone3.jfif",
+        "title":"Google Pixel 4 5.7 P-OLED 6GB RAM 64GB ROM Mobile Phone)",
+        "price":"$200"
+    },
+    {
+        "id":4,
+        "category": "phones",
+        "imageUrl":"images/phones/phone4.jfif",
+        "title":"Apple IPhone 13 (6GB RAM + 512gb ROM)",
+        "price":"$700"
+    },
+    {
+        "id":5,
+        "category": "phones",
+        "imageUrl":"images/phones/phone5.jfif",
+        "title":"Apple IPhone 13 (6GB RAM + 512gb ROM)",
+        "price":"$700"
+    },
+    {
+        "id":6,
+        "category": "phones",
+        "imageUrl":"images/phones/phone6.jfif",
+        "title":"Samsung A14 - 6.6 (4GB RAM, 128GB ROM) Fingerprint - Face Id",
+        "price":"$120"
+    },
+    {
+        "id":7,
+        "category": "phones",
+        "imageUrl":"images/phones/phone7.jfif",
+        "title":"XIAOMI New Global Version Mi 9T Redmi k20 6GB/64GB Smartphone Snapdragon 730 ",
+        "price":"$530"
+    },
+    {
+        "id":8,
+        "category": "phones",
+        "imageUrl":"images/phones/phone8.jfif",
+        "title":"XIAOMI New Global Version Redmi 10 6GB/64GB Smartphone",
+        "price":"$900"
+    },
+    {
+        "id":9,
+        "category": "phones",
+        "imageUrl":"images/phones/phone9.jfif",
+        "title":"Samsung Galaxy A10 (4GB RAM, 128GB ROM)",
+        "price":"$100"
+    },
+    {
+        "id":10,
+        "category": "phones",
+        "imageUrl":"images/phones/phone10.jfif",
+        "title":"Tecno POP 6(BE7) 2GB RAM 32GB rom",
+        "price":"$70"
+    },
+
+    {
+        "id":11,
+        "category": "laptop",
+        "imageUrl":"images/laptop/laptop1.jfif",
+        "title":"Hp Pavilion 15 Intel Core i5 8GB RAM 512GB SSD",
+        "price":"$800"
+    },
+    {
+        "id":12,
+        "category": "laptop",
+        "imageUrl":"images/laptop/laptop2.jfif",
+        "title":"Hp 15 Intel Core i7 6GB RAM 512GB SSD",
+        "price":"$500"
+    },
+    {
+        "id":13,
+        "category": "laptop",
+        "imageUrl":"images/laptop/laptop3.jfif",
+        "title":"Asus VIVIBOOK 14 11TH GEN, INTELCORE I5 8GB RAM 256GB",
+        "price":"$400"
+    },
+    {
+        "id":14,
+        "category": "laptop",
+        "imageUrl":"images/laptop/laptop4.jfif",
+        "title":"Asus E210MA, INTELCELERON I5 8GB RAM 500GB",
+        "price":"$250"
+    },
+    {
+        "id":15,
+        "category": "laptop",
+        "imageUrl":"images/laptop/laptop5.jfif",
+        "title":"Macbook 13 Pro ",
+        "price":"$300"
+    },
+    {
+        "id":16,
+        "category": "laptop",
+        "imageUrl":"images/laptop/laptop6.jfif",
+        "title":"Hp Pavilion 15 Intel Core i5 8GB RAM 512GB SSD",
+        "price":"$800"
+    },
+    {
+        "id":17,
+        "category": "laptop",
+        "imageUrl":"images/laptop/laptop7.jfif",
+        "title":"Hp ELITE BOOK 1060 Core i5 8GB RAM 512GB SSD",
+        "price":"$400"
+    },
+    {
+        "id":18,
+        "category": "laptop",
+        "imageUrl":"images/laptop/laptop8.jfif",
+        "title":"Apple MacBook Pro 14 M1 Pro Chip 16GB RAM, 512GB (2021 Model)Gray",
+        "price":"$800"
+    },
+    {
+        "id":19,
+        "category": "laptop",
+        "imageUrl":"images/laptop/laptop9.jfif",
+        "title":"Macbook 10 Pro ",
+        "price":"$250"
+    },
+    {
+        "id":20,
+        "category": "laptop",
+        "imageUrl":"images/laptop/laptop10.jfif",
+        "title":"Apple MacBook Pro 13M1 Pro Chip 16GB RAM, 512GB",
+        "price":"$800"
+    },
+
+    {
+        "id":21,
+        "category": "power_bank",
+        "imageUrl":"images/power bank/powerbank1.jfif",
+        "title":"New Age Virgin Bank 15000mah Free USB Cable",
+        "price":"$10"
+    },
+    {
+        "id":22,
+        "category": "power_bank",
+        "imageUrl":"images/power bank/powerbank2.jfif",
+        "title":"New Age Virgin Bank 15000mah Free USB Cable",
+        "price":"$10"
+    },
+    {
+        "id":23,
+        "category": "power_bank",
+        "imageUrl":"images/power bank/powerbank3.jfif",
+        "title":"New Age Virgin Bank 15000mah Free USB Cable",
+        "price":"$10"
+    },
+    {
+        "id":24,
+        "category": "power_bank",
+        "imageUrl":"images/power bank/powerbank4.jfif",
+        "title":"Oraimo POWER Bank 15000mah Free USB Cable",
+        "price":"$10"
+    },
+    {
+        "id":25,
+        "category": "power_bank",
+        "imageUrl":"images/power bank/powerbank5.jfif",
+        "title":"New Age Virgin Bank 15000mah Free USB Cable",
+        "price":"$10"
+    },
+    {
+        "id":26,
+        "category": "power_bank",
+        "imageUrl":"images/power bank/powerbank6.jfif",
+        "title":"New Age Virgin Bank 15000mah Free USB Cable",
+        "price":"$10"
+    },
+    {
+        "id":27,
+        "category": "power_bank",
+        "imageUrl":"images/power bank/powerbank7.jfif",
+        "title":"New Age Virgin Bank 15000mah Free USB Cable",
+        "price":"$10"
+    },
+    {
+        "id":28,
+        "category": "power_bank",
+        "imageUrl":"images/power bank/powerbank8.jfif",
+        "title":"New Age Virgin Bank 15000mah Free USB Cable",
+        "price":"$10"
+    },
+    {
+        "id":29,
+        "category": "power_bank",
+        "imageUrl":"images/power bank/powerbank9.jfif",
+        "title":"New Age Virgin Bank 15000mah Free USB Cable",
+        "price":"$10"
+    },
+    {
+        "id":30,
+        "category": "power_bank",
+        "imageUrl":"images/power bank/powerbank10.jfif",
+        "title":"New Age Virgin Bank 15000mah Free USB Cable",
+        "price":"$10"
+    },
+
+    {
+        "id":31,
+        "category": "Tablet",
+        "imageUrl":"images/tablet/tablet1.jfif",
+        "title":"C Idea C Idea 10 Inches Tablet, Android Tab, 5G Dual Sim",
+        "price":"$200"
+    },
+    {
+        "id":32,
+        "category": "Tablet",
+        "imageUrl":"images/tablet/tablet2.jfif",
+        "title":"C Idea C Idea 10 Inches Tablet, Android Tab, 5G Dual Sim",
+        "price":"$150"
+    },
+    {
+        "id":33,
+        "category": "Tablet",
+        "imageUrl":"images/tablet/tablet3.jfif",
+        "title":"D Idea D Idea 10 Inches Tablet, Android Tab, 5G Dual Sim",
+        "price":"$180"
+    },
+    {
+        "id":34,
+        "category": "Tablet",
+        "imageUrl":"images/tablet/tablet4.jfif",
+        "title":"C Idea C Idea 10 Inches Tablet, Android Tab, 5G Dual Sim",
+        "price":"$80"
+    },
+    {
+        "id":35,
+        "category": "Tablet",
+        "imageUrl":"images/tablet/tablet5.jfif",
+        "title":"C Idea C Idea 10 Inches Tablet, Android Tab, 5G Dual Sim",
+        "price":"$80"
+    },
+    {
+        "id":36,
+        "category": "Tablet",
+        "imageUrl":"images/tablet/tablet6.jfif",
+        "title":"C Idea C Idea 10 Inches Tablet, Android Tab, 5G Dual Sim",
+        "price":"$80"
+    },
+    {
+        "id":37,
+        "category": "Tablet",
+        "imageUrl":"images/tablet/tablet7.jfif",
+        "title":"C Idea C Idea 10 Inches Tablet, Android Tab, 5G Dual Sim",
+        "price":"$80"
+    },
+    {
+        "id":38,
+        "category": "Tablet",
+        "imageUrl":"images/tablet/tablet8.jfif",
+        "title":"C Idea C Idea 10 Inches Tablet, Android Tab, 5G Dual Sim",
+        "price":"$80"
+    },
+    {
+        "id":39,
+        "category": "Tablet",
+        "imageUrl":"images/tablet/tablet9.jfif",
+        "title":"C Idea C Idea 10 Inches Tablet, Android Tab, 5G Dual Sim",
+        "price":"$80"
+    },
+    {
+        "id":40,
+        "category": "Tablet",
+        "imageUrl":"images/tablet/tablet10.jfif",
+        "title":"C Idea C Idea 10 Inches Tablet, Android Tab, 5G Dual Sim",
+        "price":"$80"
+    },
+
+    {
+        "id":41,
+        "category": "TV",
+        "imageUrl":"images/TV/tv1.jfif",
+        "title":"LG 50' 4k UHD Smart TV+Netflix,Youtube APP & APPLE",
+        "price":"$350"
+    },
+    {
+        "id":42,
+        "category": "TV",
+        "imageUrl":"images/TV/tv2.jfif",
+        "title":"LG 50' 4k UHD Smart TV+Netflix,Youtube APP & APPLE",
+        "price":"$350"
+    },
+    {
+        "id":43,
+        "category": "TV",
+        "imageUrl":"images/TV/tv3.jfif",
+        "title":"LG 50' 4k UHD Smart TV+Netflix,Youtube APP & APPLE",
+        "price":"$350"
+    },
+    {
+        "id":44,
+        "category": "TV",
+        "imageUrl":"images/TV/tv4.jfif",
+        "title":"LG 50' 4k UHD Smart TV+Netflix,Youtube APP & APPLE",
+        "price":"$350"
+    },
+    {
+        "id":45,
+        "category": "TV",
+        "imageUrl":"images/TV/tv5.jfif",
+        "title":"LG 50' 4k UHD Smart TV+Netflix,Youtube APP & APPLE",
+        "price":"$350"
+    },
+    {
+        "id":46,
+        "category": "TV",
+        "imageUrl":"images/TV/tv6.jfif",
+        "title":"LG 50' 4k UHD Smart TV+Netflix,Youtube APP & APPLE",
+        "price":"$350"
+    },
+    {
+        "id":47,
+        "category": "TV",
+        "imageUrl":"images/TV/tv7.jfif",
+        "title":"LG 50' 4k UHD Smart TV+Netflix,Youtube APP & APPLE",
+        "price":"$350"
+    },
+    {
+        "id":48,
+        "category": "TV",
+        "imageUrl":"images/TV/tv8.jfif",
+        "title":"LG 50' 4k UHD Smart TV+Netflix,Youtube APP & APPLE",
+        "price":"$350"
+    },
+    {
+        "id":49,
+        "category": "TV",
+        "imageUrl":"images/TV/tv9.jfif",
+        "title":"LG 50' 4k UHD Smart TV+Netflix,Youtube APP & APPLE",
+        "price":"$350"
+    },
+    {
+        "id":50,
+        "category": "TV",
+        "imageUrl":"images/TV/tv10.jfif",
+        "title":"LG 50' 4k UHD Smart TV+Netflix,Youtube APP & APPLE",
+        "price":"$350"
+    }
+
+]

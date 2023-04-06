@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- <header
+        class="sticky top-0 left-0 w-full z-50 md:flex md:flex-col md:justify-between items-center gap-[10px] py-[10px] px[10px] lg:flex lg:flex-row lg:justify-between lg:items-center lg:text-white lg:h-[65px] bg-[#634141] lg:px-[10px] md:px-[30px] justify-between header">
+        <div class="text-[45px] text-white  md:text-[35px] md:text-white flex px-4 justify-center hover:cursor-pointer">
+            PACE
+        </div>
+        <div
+            class="lg:flex md:flex md:gap-[20px] md:text-white lg:gap-[15px] md:items-center lg:items-center md:text-[20px] lg:text-[18px] flex justify-center gap-4 py-3 text-white">
+            <a href="">SHOP ALL</a>
+            <a href="">PHONES</a>
+            <a href="">LAPTOPS</a>
+            <a href="">POWER-BANK</a>
+            <a href="">TV</a>
+        </div>
+        <div class="flex lg:flex  items-center gap-4">
+            <div>
+                <input type="search" placeholder="Search Products"
+                    class=" h-[34px] w-[190px] rounded-[5px] outline-none border-none mx-2 text-black px-[15px] py-[10px]">
+            </div>
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-user text-[21px] text-white hover:cursor-pointer"></i>
+                <button class="text-[22px] text-white">
+                    Account
+                </button>
+            </div>
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-cart-shopping text-[21px] text-white hover:cursor-pointer"></i>
+                <button class="text-[22px] text-white">
+                    Cart
+                </button>
+            </div>
+        </div>
+    </header> -->
+    <div class="sticky top-0 left-0 w-full z-50" id="header"></div>
+    <main>
+        <div class="my-4 mx-[120px] flex">
+            <div class="flex flex-col flex1 px-4 font-semibold text-[15px]">
+                <img src="" alt="" id="image">
+                <hr>
+                <h1>SHARE THIS PRODUCT</h1>
+                <div class="flex gap-[10px] my-[10px]">
+                    <i
+                        class=" flex items-center justify-center w-[30px] border border-black h-[30px] rounded-[50px] fa-brands fa-facebook-f"></i>
+                    <i
+                        class=" flex items-center justify-center w-[30px] border border-black h-[30px] rounded-[50px] fa-brands fa-twitter"></i>
+                </div>
+            </div>
+
+            <div class="flex flex2 flex-col w-[600px] px-[15px] pt-[25px] gap-[10px]">
+                <p id="title"></p>
+                <div class="flex items-center gap-2">
+                    <div> <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <h1>(No ratings available)</h1>
+                </div>
+                <hr>
+                <p class="font-bold text-[25px]" id="price"></p>
+                <button
+                    class="w-full bg-[#634141] py-3 flex items-center justify-between px-[20px] text-[20px] text-white rounded-[7px]">
+                    <div><i class="fa-solid fa-cart-plus"></i></div>
+                    <div>ADD TO CART</div>
+                    <div></div>
+                </button>
+            </div>
+            <hr>
+        </div>
+        <div class="flex flex-col mx-[100px]">
+            <h1 class="my-[10px] text-[20px]">Product Details</h1>
+            <hr>
+            <p>Get infinitely spectacular possibilities with the iPhone 12 Pro Max. It features the powerful A14 Bionic
+                chip, 5G to download and stream high-quality video, a bright 6.7" Super Retina XDR display, and Ceramic
+                Shield for better drop performance. Other features include a LiDAR scanner, a triple-camera system with
+                cinema-grade Dolby Vision, MagSafe accessories for wireless charging, and much more.</p>
+            <h1>
+                Display that goes all the way
+            </h1>
+            <ul class="" style="list-style-type:disc;">
+                <li>6.7" Super Retina XDR display with 2778 x 1284 resolution at 458ppi takes you to the edge</li>
+                <li>All-screen OLED with surgical-grade stainless steel edges delivers brighter brights, darker blacks,
+                    and higher resolution for everything you look at</li>
+                <li>HDR display is packed with features including True Tone, wide colour (P3), haptic touch, a typical
+                    2,000,000:1 contrast ratio, 800 nits max brightness (1200 nits with HDR), and fingerprint-resistant
+                    oleophobic coating</li>
+                <li>128GB of on-board storage</li>
+                <li>A14 Bionic chip crunches trillions of operations on the Neural Engine, handles shooting in Dolby
+                    Vision, is super-efficient for great battery life, and brings the latest augmented-reality (AR)
+                    experiences to life</li>
+                <li>Pro-grade triple-camera system features wide (12MP, f/1.6 at 26mm focal length with sensor-shift
+                    optical image stabilization), ultra-wide (12MP, f/2.4 at 13mm focal length with a 120-degree field
+                    of view), and telephoto (12MP, f/2.2 at 65mm focal length with optical image stabilization) cameras
+                </li>
+                <li>Record 4K HDR video with Dolby Vision, edit in Photos or iMovie, then zap it to your TV using
+                    AirPlay to see all that colour and detail for a start-to-finish cinematic experience</li>
+            </ul>
+
+        </div>
+
+       <div class="mx-[100px] py-[30px]">
+        <h1 class="font-bold border h-[40px] flex items-center px-[10px]">SPECIFICATION</h1>
+        <div class="flex gap-5 my-[10px]">
+            <div class="flex flex1 flex-col border px-[10px] py-[15px] w-[400px]">
+                <h1>KEY FEATURES</h1>
+                <hr>
+                <p>Get infinitely spectacular possibilities with the iPhone 12 Pro Max. It features the powerful A14 Bionic chip, 5G to download and stream high-quality video, a bright 6.7" Super Retina XDR display, and Ceramic Shield for better drop performance. Other features include a LiDAR scanner, a triple-camera system with cinema-grade Dolby Vision, MagSafe accessories for wireless charging, and much more.</p>
+              <div class="px-[10px]">
+                <ul class="" style="list-style-type:disc;">
+                    <li>6.7" Super Retina XDR display with 2778 x 1284 resolution at 458ppi takes you to the edge</li>
+                    <li>All-screen OLED with surgical-grade stainless steel edges delivers brighter brights, darker blacks,
+                        and higher resolution for everything you look at</li>
+                    <li>HDR display is packed with features including True Tone, wide colour (P3), haptic touch, a typical
+                        2,000,000:1 contrast ratio, 800 nits max brightness (1200 nits with HDR), and fingerprint-resistant
+                        oleophobic coating</li>
+                    <li>128GB of on-board storage</li>
+                    <li>A14 Bionic chip crunches trillions of operations on the Neural Engine, handles shooting in Dolby
+                        Vision, is super-efficient for great battery life, and brings the latest augmented-reality (AR)
+                        experiences to life</li>
+                    <li>Pro-grade triple-camera system features wide (12MP, f/1.6 at 26mm focal length with sensor-shift
+                        optical image stabilization), ultra-wide (12MP, f/2.4 at 13mm focal length with a 120-degree field
+                        of view), and telephoto (12MP, f/2.2 at 65mm focal length with optical image stabilization) cameras
+                    </li>
+                    <li>Record 4K HDR video with Dolby Vision, edit in Photos or iMovie, then zap it to your TV using
+                        AirPlay to see all that colour and detail for a start-to-finish cinematic experience</li>
+                </ul>
+              </div>
+            </div>
+            <div class="flex flex2 flex-col px-[10px] py-[15px] border w-[400px]">
+                <h1>SPECIFICATIONS</h1>
+                <hr>
+                <div class="flex flex-col gap-3">
+                   <div><span class="font-bold">SKU:</span><span>AP044MP0TJAS0NAFAMZ</span></div> 
+                   <div><span class="font-bold">Product Line:</span><span>Just Fones</span></div> 
+                    <div><span class="font-bold">Weight (kg):</span><span>0.5</span></div> 
+                    <div><span class="font-bold">Color:</span><span>Black</span></div> 
+                </div>
+
+            </div>
+        </div>
+       </div>
+    </main>
+    <div id="footer" class="w-full bg-black text-white"></div>
+   <!-- <footer class="flex mt-10 md:px-[30px] lg:px-[1px] justify-center py-[60px] bg-black text-white">
+        <div class=" md:flex gap-10">
+            <div class="flex flex-col gap-10">
+                <h1 class="font-bold text-[20px]">SHOP</h1>
+                <div class="flex flex-col gap-[4px]">
+                    <a href="">All Products</a>
+                    <a href="">New</a>
+                    <a href="">Best Device</a>
+                    <a href="">Phones</a>
+                    <a href="">Laptops</a>
+                    <a href="">Power Bank</a>
+                </div>
+            </div>
+            <div class="flex flex-col gap-10">
+                <h1 class="font-bold text-[20px]">OUR STORE</h1>
+                <div class="flex flex-col gap-[30px]">
+                    <p>
+                        26 Terry Fajol Street <br>
+                        Obantoko, Abeokuta 94158
+                    </p>
+                    <p>
+                        Monday-Friday : 11am-10pm <br>
+                        Saturday-Sunday: 11am-12pm
+                    </p>
+                    <p>
+                        Tel:<a href="tel:+2348133810188">+2348133810188</a> <br>
+                        Email:<a href="mailto:solomon.eniola7@gmail.com">solomon.eniola7@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-col gap-10">
+                <h1 class="font-bold text-[20px]">POLICY</h1>
+                <div class="flex flex-col gap-[4px]">
+                    <a href="">shipping & returns</a>
+                    <a href="">store policy</a>
+                    <a href="">Payment Method</a>
+                    <a href="">FAQ</a>
+                </div>
+            </div>
+            <div class="flex flex-col gap-10">
+                <h1 class="font-bold text-[20px]">Customer Service</h1>
+                <div class="flex flex-col gap-[30px]">
+                    <p>
+                        Tel:<a href="tel:+2348133810188">+2348133810188</a> <br>
+                        Email:<a href="mailto:solomon.eniola7@gmail.com">solomon.eniola7@gmail.com</a>
+                    </p>
+                    <div class="flex gap-[25px] text-[25px]">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <p> © 2023 by Jedidiah. Powered by eTech</p>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+ <script src="main.js"></script>
+
+ <script>
+     const f = async () => {
+        const params = new URLSearchParams(window.location.search)
+        const id = params.get('id');
+        allProducts = await fetch('./products.json')
+            .then(response => response.json())
+            .then(allProducts => allProducts)
+        const product = allProducts.find(product => product.id === parseInt(id))
+        console.log(product);
+        document.getElementById('title').textContent=product.title
+        document.getElementById('price').textContent=product.price
+        document.getElementById('image').src =product.imageUrl
+    }
+    f()
+ </script>
+</body>
+
+</html>

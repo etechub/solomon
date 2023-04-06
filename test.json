@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "imageUrl":"images/phones/phones1.jfif",
+        "titile":"Apple IPhone 14 (6GB RAM + 256gb ROM)",
+        "price":"$700"
+    },
+    {
+        "id":2,
+        "imageUrl":"images/phones/phones2.jfif",
+        "titile":"Samsung Galaxy A13 (4GB RAM, 128GB ROM)",
+        "price":"$900"
+    },
+    {
+        "id":3,
+        "imageUrl":"images/phones/phones3.jfif",
+        "titile":"Samsung Galaxy A13 (4GB RAM, 128GB ROM)",
+        "price":"$900"
+    },
+    {
+        "id":4,
+        "imageUrl":"images/phones/phones4.jfif",
+        "titile":"Samsung Galaxy A13 (4GB RAM, 128GB ROM)",
+        "price":"$900"
+    },
+    {
+        "id":5,
+        "imageUrl":"images/phones/phones5.jfif",
+        "titile":"Samsung Galaxy A13 (4GB RAM, 128GB ROM)",
+        "price":"$900"
+    }
+]

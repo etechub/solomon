@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="sticky top-0 left-0 w-full z-50" id="header"></div>
+
+
+    <main class="flex flex-col justify-center">
+        <h1 class="flex justify-center text-[40px] font-bold font-serif">SEARCH RESULT</h1>
+        
+        <div class="flex justify-center lg:px-[38px] py-[20px] gap-[30px] flex-wrap" id="container"></div>
+        
+
+    </main>
+    <div id="footer" class="w-full bg-black text-white"></div>
+
+    <script src="main.js"></script>
+
+    <script>
+        const f = async () => {
+            const params = new URLSearchParams(window.location.search)
+            const searchTerm = params.get('search');
+            allProducts = await fetch('./products.json')
+                .then(response => response.json())
+                .then(allProducts => allProducts)
+            const filteredProducts = allProducts.filter(product => {
+                const title = (product.title).toLowerCase()
+                const a = title?.includes(searchTerm.toLowerCase())
+                return a
+            })
+            console.log(filteredProducts);
+            var p = ``
+            filteredProducts?.forEach(product => {
+                p += `
+                <div class="flex flex-col items-center justify-center mx-[40px] my-[20px] px-[15px] py-[20px] w-[300px] border">
+            <img src="${product.imageUrl}" alt="" id="image">
+            <div>
+                <h2 id="title">${product.title}</h2>
+                <h2 class="font-bold flex justify-center py-[20px]" id="price">${product.price}</h2>
+            </div>
+
+            <a href="/product.html "><button
+                    class=" flex items-center justify-center text-white bg-[#634141] px-[20px] py-[10px]">Add to
+                    Cart</button>
+            </a>
+        </div>
+                `
+            });
+            console.log({p});
+            document.getElementById('container').innerHTML=p
+            //    document.getElementById('title').textContent=product.title
+            //    document.getElementById('price').textContent=product.price
+            //    document.getElementById('image').src =product.imageUrl
+        }
+        f()
+    </script>
+</body>
+
+</html>
